@@ -171,6 +171,9 @@ button.demo {
   font-size: 24px;
   line-height: normal;
 }
+.text1 {
+  font-size: 32px;
+}
 .features-under {
   display: flex;
   align-items: flex-start;
@@ -354,24 +357,28 @@ button.demo {
   align-items: flex-start;
   gap: 8px;
 }
-
+.flex1 {
+  margin: auto;
+  margin-right: 0;
+}
 .dropdown-header {
   cursor: pointer;
+  display: flex;
+  width: 720px;
   padding: 10px;
-  border: 1px solid #ccc;
-  background-color: #f9f9f9;
   margin-bottom: 5px;
   user-select: none;
-  width: 100%; /* Ensure headers take full width */
+  font-size: 24px;
+  width: 100vh; /* Ensure headers take full width */
   box-sizing: border-box; /* Include padding and border in width */
 }
 
 .dropdown-content {
   display: none; /* Hide by default */
   padding: 10px;
-  border: 1px solid #ccc;
+  background-color: #fff7f9;
   border-top: none;
-  width: 100%; /* Ensure content takes full width */
+  width: 100vh; /* Ensure content takes full width */
   box-sizing: border-box; /* Include padding and border in width */
   height: 100px; /* Set a fixed height */
   overflow-y: auto; /* Enable vertical scrolling if content overflows */
@@ -379,4 +386,81 @@ button.demo {
 
 .dropdown-content p {
   margin: 0;
+}
+
+.content {
+  min-height: calc(100vh - 100px); /* Adjust based on footer height */
+  padding: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 120px;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #ddd;
+}
+
+.footer-left {
+  max-width: 50%;
+}
+
+.footer-left p {
+  font-size: 32px;
+}
+.footer-logo {
+  font-size: 24px;
+  color: #1a0dab;
+  margin-top: auto;
+}
+
+.footer-left p {
+  font-size: 16px;
+  color: #1a0dab;
+}
+
+.footer-right {
+  text-align: left;
+}
+
+.footer-right h3 {
+  font-size: 18px;
+  color: #1a0dab;
+  margin-bottom: 10px;
+}
+
+.footer-right ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.footer-right ul li {
+  margin-bottom: 10px;
+}
+
+.footer-right ul li a {
+  text-decoration: none;
+  color: #1a0dab;
+  font-size: 16px;
+}
+
+.footer-icons a {
+  margin-left: 10px;
+}
+
+.footer-icons img {
+  width: 24px;
+  height: 24px;
+}
+.footer-icons {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.image2{
+  
 }
